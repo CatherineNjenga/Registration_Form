@@ -132,9 +132,10 @@ body {
         word-break:break-all;
         overflow-wrap: break-word;  
     }
-    .trial-footer {
+    .trial-footer input{
         padding: 1em 3em 1em 5em;
         text-align: center;
     }
+
 }
 
