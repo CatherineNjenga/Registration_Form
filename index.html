@@ -25,12 +25,14 @@
         </div>
         <div class="apply">
             <form action="" class="form-container">
-                <input type="text" name="apply" id="first" placeholder="First Name">
-                <input type="text" name="apply" id="second" placeholder="Last Name">
-                <input type="email" name="apply" id="email" placeholder="Email Address" autocomplete="username">
-                <input type="password" name="apply" id="password" placeholder="Password" autocomplete="current-password">
-            </form>
-            <input type="button" class="trial-footer" value="CLAIM YOUR FREE TRIAL" for="apply">
+                <input type="text" name="apply" id="first" placeholder="First Name" required>
+                <input type="text" name="apply" id="second" placeholder="Last Name" required>
+                <input type="email" name="apply" id="email" placeholder="Email Address" autocomplete="username" required>
+                <input type="password" name="apply" id="password" placeholder="Password" autocomplete="current-password" required>
+                <div class="trial-footer">
+                    <input type="submit" class="trial-footer" value="CLAIM YOUR FREE TRIAL" for="apply">
+                </div>    
+            </form>    
             <p>By clicking the button you are agreeing to our <a>Terms and Services</a></p>   
         </div>    
     </div>    
